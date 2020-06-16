@@ -1,0 +1,17 @@
+{
+    "name": "faticesko/commission-calculator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fati",
+            "email": "faticesko@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Commissions\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,9 +1,9 @@
 <?php
 require('constants.php');
-require('src/Commissions.php');
 
+require_once './vendor/autoload.php';
 
-$commission = new Commissions();
+$commission = new \Commissions\Commissions();
 
 
 echo $commission->calculateCommissions($argv[1]);

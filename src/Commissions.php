@@ -1,5 +1,6 @@
 <?php   
-  //namespace Commissions;
+
+  namespace Commissions;
 
   class Commissions {
 
